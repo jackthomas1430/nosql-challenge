@@ -18,7 +18,7 @@ There are two deliverables for this Challenge:
 1. Clone the repository to your local device using git clone (https://github.com/jackthomas1430/nosql-challenge.git)
 2. Activate virtual enviroment using the following command in your terminal: 'conda activate dev' 
 3. Ensure MongoDB is running locally
-4. Import data: to import the data provided in the establishments.json file navigate to the directory containing the Resources folder on your terminal and run the following command:'mongoimport --db uk_food --collection establishments --drop --jsonArray establishments.json'
+4. Import data: to import the data provided in the establishments.json file navigate to the directory containing the Resources folder on your terminal and run the following command:mongoimport --db uk_food --collection establishments --drop --file establishments.json --jsonArray
 
 5. Open the Jupyter Notebook named NoSQL_setup.ipynb and run to import the data and set up and update the uk_food database
 6. Open the Jupyter Notebook named NoSQL_analysis.ipynb and run to execute the exploratory analysis queries in the database
